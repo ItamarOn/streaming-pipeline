@@ -41,5 +41,11 @@
      4. nathan.scott@square.com - 34 clicks
     ```
 3. **Start API**:
-   - TBD
-
+   -  GET `http://localhost:8000/clicks/emma.white@adobe.com` 
+      returns:
+   - ```json
+     {
+       "user_id":"emma.white@adobe.com",
+       "clicks": 0
+     }
+     ```
